@@ -28,11 +28,6 @@ Type "help", "copyright", "credits" or "license()" for more information.
 8
 >>> float(round(7,2))
 7.0
->>> int(7,2)
-Traceback (most recent call last):
-  File "<pyshell#14>", line 1, in <module>
-    int(7,2)
-TypeError: int() can't convert non-string with explicit base
 >>> int(7.2)
 7
 >>> 3 + 2
@@ -67,15 +62,13 @@ xy + 1
 8
 pi = 355 / 133
 radius = 2.2
-area = pi * (radius * 2)
+area = pi * (radius ** 2)
 circumference = pi * (radius * 2)
 a = 355 / 133 * (2.2 * 2)
 c = 355 / 133 * (2.2 * 2)
 a = c
 meters = 100
 feet = 3.2802 * meters
-meters = 2mm
-SyntaxError: invalid decimal literal
 meters = 200
 feet
 328.02
